@@ -4,8 +4,9 @@
   "private": true,
   "dependencies": {
     "@aws-amplify/cli": "^4.41.1",
+    "@aws-amplify/ui-react": "^0.2.34",
     "acorn": "^6.4.1",
-    "aws-amplify": "^1.1.22",
+    "aws-amplify": "^3.3.14",
     "axios": "^0.21.1",
     "braces": ">=2.3.1",
     "catenary-curve": "^1.0.1",

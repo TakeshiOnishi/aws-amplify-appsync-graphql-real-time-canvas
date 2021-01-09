@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
+
 import CanvasDraw from "./RCD";
 import uuid from 'uuid/v4'
 
@@ -122,6 +124,7 @@ class Demo extends Component {
   render() {
     return (
       <div>
+        <AmplifySignOut />
         <button name='clearbutton' onClick={this.clear}>Clear</button>
         <CanvasDraw
           {...this.state}
